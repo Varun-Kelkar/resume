@@ -95,6 +95,32 @@ function App() {
               </ul>
             </div>
           </section>
+          <section className={styles.skills}>
+            <div className={styles.contentWrapper}>
+              <header className={styles.sectionHeader}>
+                <h3> 🚀 Skills</h3>
+              </header>
+              <div className={styles.skillsList}>
+                <span className={`${styles.chip} ${styles.blue}`}>React</span>
+                <span className={`${styles.chip} ${styles.green}`}>NextJS</span>
+                <span className={`${styles.chip} ${styles.yellow}`}>
+                  Lit Web Components
+                </span>
+                <span className={`${styles.chip} ${styles.aqua}`}>Webpack</span>
+                <span className={`${styles.chip} ${styles.yellow}`}>Microfrontends</span>
+
+                <span className={`${styles.chip} ${styles.green}`}>
+                  Javascript
+                </span>
+                <span className={`${styles.chip} ${styles.blue}`}>
+                  Typescript
+                </span>
+                <span className={`${styles.chip} ${styles.yellow}`}>
+                  GraphQL
+                </span>
+              </div>
+            </div>
+          </section>
           <section className={styles.careerHighlights}>
             <div className={styles.contentWrapper}>
               <header className={styles.sectionHeader}>
@@ -106,8 +132,10 @@ function App() {
                   <strong>comprehensive microfrontend architecture</strong> for
                   all company applications. This initiative involved
                   meticulously migrating existing applications to the new
-                  architecture, resulting in enhanced modularity, scalability,
-                  and overall performance.
+                  architecture, resulting in&nbsp;
+                  <strong>
+                    enhanced modularity, scalability, and overall performance.
+                  </strong>
                 </li>
                 <li>
                   Spearheaded the development of a cutting-edge&nbsp;
@@ -183,7 +211,7 @@ function App() {
                     target="_blank"
                     rel="noopener,noreferrer"
                   >
-                    vnkelkar@gmail.com
+                    vnkelkar11@gmail.com
                   </a>
                 </div>
                 <div>
@@ -209,27 +237,15 @@ function App() {
               </div>
             </div>
           </section>
-          <section className={styles.skills}>
+          <section className={styles.languages}>
             <div className={styles.contentWrapper}>
               <header className={styles.sectionHeader}>
-                <h3> 🚀 Skills</h3>
+                <h3> 🌐 Languages</h3>
               </header>
-              <div className={styles.skillsList}>
-                <span className={`${styles.chip} ${styles.blue}`}>React</span>
-                <span className={`${styles.chip} ${styles.green}`}>NextJS</span>
-                <span className={`${styles.chip} ${styles.yellow}`}>
-                  Lit Web Components
-                </span>
-                <span className={`${styles.chip} ${styles.aqua}`}>Webpack</span>
-                <span className={`${styles.chip} ${styles.green}`}>
-                  Javascript
-                </span>
-                <span className={`${styles.chip} ${styles.blue}`}>
-                  Typescript
-                </span>
-                <span className={`${styles.chip} ${styles.yellow}`}>
-                  GraphQL
-                </span>
+              <div className={styles.content}>
+                <div>English</div>
+                <div>Hindi</div>
+                <div>Marathi</div>
               </div>
             </div>
           </section>
