@@ -134,7 +134,7 @@ function App() {
                   meticulously migrating existing applications to the new
                   architecture, resulting in&nbsp;
                   <strong>
-                    enhanced modularity, scalability, and overall performance.
+                    enhanced modularity, scalability and overall performance.
                   </strong>
                 </li>
                 <li>
@@ -148,9 +148,9 @@ function App() {
                   <strong>
                     significantly reduced development time and costs
                   </strong>
-                  &nbsp;while &nbsp;
+                  &nbsp;while&nbsp;
                   <strong>increasing productivity and agility</strong>
-                  &nbsp; across the organization.
+                  &nbsp;across the organization.
                 </li>
                 <li>
                   Designed and implemented the <strong>UI Rules feature</strong>
@@ -170,7 +170,7 @@ function App() {
                     web components & authored extensive and user-friendly
                     documentation
                   </strong>
-                  for the web components library.
+                  &nbsp;for the web components library.
                 </li>
               </ul>
             </div>
