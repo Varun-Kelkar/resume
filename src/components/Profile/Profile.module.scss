@@ -1,0 +1,22 @@
+@import "../../styles/variables";
+.profile {
+  margin-bottom: 2rem;
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+  }
+
+  a {
+    color: $color-primary;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &:focus {
+      outline: 2px solid $color-primary;
+    }
+  }
+}

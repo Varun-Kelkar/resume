@@ -1,0 +1,50 @@
+@import "../../styles/variables";
+.hobbyList {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  .hobbyItem {
+    padding: 0.5rem 0.5rem;
+    border-radius: 1rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: capitalize;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+   
+  }
+   .yellow {
+      background-color: #fff9c4; /* yellow */
+      border: 1px solid #fbc02d;
+      color: #795548;
+    }
+    .green {
+      background: #e8f5e9;
+      color: #1b5e20;
+      border: 1px solid #2e7d32; /* green */
+    }
+    .blue {
+      background: #b3e5fc;
+      color: #0d47a1;
+      border: 1px solid #0288d1;
+    }
+    .aqua {
+      background-color: #d2f4ef;
+      color: #00695c;
+      border: 1px solid #b2e8e1;
+    }
+    .peach-coral {
+      background-color: #ffebcd; /* Peach */
+      color: #ff7f50; /* Coral */
+      border: 1px solid #ffcc99;
+    }
+}
