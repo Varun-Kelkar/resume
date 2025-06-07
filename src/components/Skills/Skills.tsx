@@ -2,7 +2,8 @@ import styles from "./Skills.module.scss";
 const skills = [
   { name: "React", color: "blue" },
   { name: "NextJS", color: "green" },
-  { name: "Lit Web Components", color: "yellow" },
+  {name: "Design Systems", color: "yellow" },
+  { name: "Lit Web Components", color: "peach-coral" },
   { name: "Webpack", color: "aqua" },
   { name: "Microfrontends", color: "yellow" },
   { name: "Javascript", color: "green" },

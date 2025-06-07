@@ -1,12 +1,12 @@
 @import "../../styles/variables";
 
 .sectionContainer {
-  padding: 0.5rem;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   justify-content: flex-start;
   align-items: baseline;
+  box-shadow: 0 0 10px rgba(0, 15, 0, 0.1);
 
   .header {
     background-color: $color-dark-blue;

@@ -3,8 +3,12 @@ import styles from "./HobbiesAndPassions.module.scss";
 export default function HobbiesAndPassions() {
   const hobbies = [
     {
-      name: "Photography",
+      name: "Badminton",
       color: "blue",
+    },
+    {
+      name: "Coding",
+      color: "aqua",
     },
     {
       name: "Traveling",
@@ -13,10 +17,6 @@ export default function HobbiesAndPassions() {
     {
       name: "Reading",
       color: "yellow",
-    },
-    {
-      name: "Coding",
-      color: "aqua",
     },
     {
       name: "Music",

@@ -20,9 +20,8 @@ export default function Profile() {
           rel="noopener noreferrer"
           aria-label="Web Components documentation"
         >
-          Web Components
+          Web Components,&nbsp;
         </a>
-        ,&nbsp;
         <a
           href="https://react.dev/"
           target="_blank"
@@ -31,7 +30,7 @@ export default function Profile() {
         >
           React
         </a>
-        &nbsp;&&nbsp;
+        ,&nbsp;
         <a
           href="https://micro-frontends.org/"
           target="_blank"
@@ -39,6 +38,15 @@ export default function Profile() {
           aria-label="Microfrontends documentation"
         >
           Microfrontends
+        </a>
+        &nbsp;&&nbsp;
+        <a
+          href="https://www.designsystems.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Design Systems documentation"
+        >
+          Design System
         </a>
         . Experienced in delivering high-quality code and collaborating with
         cross-functional teams to drive project success. A professional with a
